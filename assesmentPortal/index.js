@@ -26,6 +26,8 @@ const allowedOrigins = [
   "https://power-bi-assured.vercel.app",
   "https://power-bi-eta.vercel.app",
   "https://coursesforcareers.tech",
+  "https://full-stack-project-z3yn.vercel.app",
+  "https://full-stack-project-murex.vercel.app",
 ];
 
 // Configure CORS to allow requests from the allowed origins
