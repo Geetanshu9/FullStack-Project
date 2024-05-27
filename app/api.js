@@ -1,4 +1,4 @@
-export const apiLink = "http://localhost:9000";
+export const apiLink = "https://full-stack-project-4ygb.vercel.app";
 //top is for production
 //bottom for local
 

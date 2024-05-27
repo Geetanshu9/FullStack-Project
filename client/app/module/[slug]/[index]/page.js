@@ -40,7 +40,7 @@ const Page = ({ params }) => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `http://localhost:9000/course/${params.slug}`
+          `https://full-stack-project-4ygb.vercel.app/course/${params.slug}`
         );
         const { course } = await response.json();
 

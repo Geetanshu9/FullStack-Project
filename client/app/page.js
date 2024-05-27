@@ -11,7 +11,7 @@ export default function Home() {
   useEffect(() => {
     const fetchCourses = async () => {
       try {
-        const response = await fetch("http://localhost:9000/course");
+        const response = await fetch("https://full-stack-project-4ygb.vercel.app/course");
         const data = await response.json();
         setCoursesData(data);
       } catch (error) {
